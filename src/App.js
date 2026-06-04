@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {
   LineChart, Line, BarChart, Bar, XAxis, YAxis,
-  Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend
+Tooltip, ResponsiveContainer, PieChart, Pie, Cell
 } from "recharts";
 
 const revenueData = [
@@ -83,7 +83,6 @@ const tooltipStyle = {contentStyle:{background:"#1a2235",border:"1px solid #1e2d
 export default function App() {
   const [period, setPeriod] = useState("30D");
   const [activeTab, setActiveTab] = useState("Overview");
-  const [menuOpen, setMenuOpen] = useState(false);
   const d = periods[period];
 
   return (
