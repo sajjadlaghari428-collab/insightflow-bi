@@ -1,3 +1,18 @@
+## 🚀 InsightFlow BI
+
+Live Demo:
+👉 https://insightflow-bi.vercel.app
+
+GitHub Repo:
+👉 https://github.com/sajjadlaghari428-collab/insightflow-bi
+
+---
+
+### 📊 Features
+- React Dashboard
+- Charts (Recharts)
+- Responsive UI
+- Real-time analytics UI
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
